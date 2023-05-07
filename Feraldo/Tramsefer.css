@@ -1,0 +1,36 @@
+body{
+    background-color: blanchedalmond;
+}
+
+header{
+    background-image: url("PICTURES/c11.jpg");
+    text-align: center; 
+    background-size: cover;
+    
+}
+.wrapper h2{
+  background-color: #fcfcfc;
+  color: black ;
+  font-size: 24px;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px dotted #333;
+}
+.wrapper{
+    background-color:rgb(153, 136, 136);
+    width: 500px;
+    padding: 25px;
+    margin: 25px auto 0;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    overflow-y: scroll;
+  }
+  .footer-pad li a{
+    text-decoration: none;
+    color:aliceblue;
+
+    
+  }
+  footer{
+    margin-top: 10px;
+  }

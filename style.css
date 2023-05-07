@@ -1,0 +1,201 @@
+body{
+    background-color: blanchedalmond;
+}
+
+header{
+    background-image: url("C:/Users/NGAMKLET NONGLAMIN/Desktop/generation/colmar_bootstrap/ngamklet/picture/c11.jpg");
+    text-align: center; 
+    background-size: cover;
+    
+   
+}
+
+
+
+
+.center {
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+  .clear{
+    clear: both;
+  }
+  
+  .dropdown {
+    display: inline-block;
+    
+  }
+  
+  .dropdown .nav-link {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(61, 24, 14);
+    padding: 14px 16px;
+    
+    margin: 0;
+  }
+  
+  .nav-item:hover .nav-link {
+    background-color: rgba(91, 95, 91, 0.514);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(195, 162, 244);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    opacity: 0.;
+  }
+  
+  .dropdown-content a {
+    color: rgb(70, 26, 8);
+    font-weight: bold;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(6, 21, 23) ;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: aliceblue;
+  }
+  .nav-item:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+
+
+/*cpa Family*/
+.cpa-family{
+    background-color: bisque;
+    border: 3px solid bisque;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.more-info{
+     
+    font-size: large;
+    
+    padding-bottom: 20px;
+}
+.more-info a:hover{
+    color: lightgreen;
+}
+
+
+/* beginning of footer section styling */
+footer{
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(26, 3, 49);
+    font-family:   Helvetica, Arial, sans-serif;
+    
+    
+}
+#contacts{
+    height: auto;
+    align-content: space-around;
+    font-weight: bolder;
+    background-color: rgb(25, 11, 39);
+}
+.page-foot{
+    
+    align-content: space-around;
+    background-color: rgb(25, 11, 39);
+}
+.contact-content{
+    font-size: smaller;
+    width: 100%;
+    align-items: center;
+    text-align: center;    
+    background-color: rgb(26, 3, 49);
+}
+#contact-table{
+    width: 100%;
+    text-align: center;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+/* The end of footer section styling */
+th{
+    font-weight: bolder;
+}
+tr{
+    align-items: center;
+    text-align: center;
+}
+
+p{
+    padding-bottom: 10px;
+    padding-top: 10px;    
+    
+}
+
+/*Back to top*/
+.arrow{
+  position: fixed;
+  
+  bottom: 50px;
+  right: 20px;
+  z-index: 9;
+  opacity: 0.7;
+}
+.arrow a{
+  height: 65px;
+  width: 70px;
+  text-align: center;
+  
+  display: block;
+  border-radius: 3px;
+}
+.top-btn
+{
+  border-radius: 50%;
+  height: 65px;
+  width: 70px;
+}
+
+.arrow a:hover{
+  background-image: url("C:/Users/NGAMKLET NONGLAMIN/Desktop/generation/colmar/PICTURES/top arrow.jpeg");
+  background-color: blueviolet;
+  opacity: 1;
+  border-radius: 20%;
+}
+
+.p-msg{
+  margin: 60px 70px; 
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-weight: 500;
+}
+
+/*Tables*/
+.table-body-row td, .heading th{
+  padding: 10px 20px;
+  
+}
+.heading th{
+  background-color: cadetblue;
+  color: bisque;
+}
+.table-body-row td{
+  background-color: rgb(243, 193, 118);
+  color: rgb(61, 24, 14);
+}

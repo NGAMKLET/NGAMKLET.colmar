@@ -1,0 +1,27 @@
+.row1{
+    background-image: url("PICTURES/c11.jpg");
+    text-align: center; 
+    background-size: cover;
+}
+.row2{
+    background-color: blanchedalmond;
+}
+.panel{
+    margin: 20px 60px;
+    
+     
+}
+.custom-control-inline{
+    display: inline;
+    padding: 0px 5px;
+}
+.footer-pad li a{
+    text-decoration: none;
+    color:black;
+  
+    
+  }
+  footer{
+     
+    background-color: blanchedalmond;
+  }
